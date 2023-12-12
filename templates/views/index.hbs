@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <div class="main-content">
+            {{>header}}
+            <p>use this site to get your weater !</p>
+            <form>
+                <label> select your location :</label>
+                <input placeholder="insert your location" type="text">
+                <button>search</button>
+            </form>
+            <p id="messageOne"></p> 
+            <p id="messageTwo"></p>
+
+            <p id="errorSpan"></p>
+        </div>
+        {{>footer}}
+        <script src="/js/app.js"></script>
+    </body>
+</html>
